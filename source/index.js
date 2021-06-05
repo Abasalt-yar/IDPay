@@ -85,7 +85,7 @@ var IDPay = /** @class */ (function () {
                                     res({ status_code: result_1.status, id: result_1.data.id, link: result_1.data.link, info: options,
                                         verify: function () {
                                             return new Promise(function (resolve, reject) { return __awaiter(_this, void 0, void 0, function () {
-                                                var a_1, error_2;
+                                                var a, error_2;
                                                 return __generator(this, function (_a) {
                                                     switch (_a.label) {
                                                         case 0:
@@ -95,8 +95,8 @@ var IDPay = /** @class */ (function () {
                                                                     order_id: options.order_id
                                                                 })];
                                                         case 1:
-                                                            a_1 = _a.sent();
-                                                            resolve(a_1);
+                                                            a = _a.sent();
+                                                            resolve(a);
                                                             return [3 /*break*/, 3];
                                                         case 2:
                                                             error_2 = _a.sent();
@@ -109,7 +109,7 @@ var IDPay = /** @class */ (function () {
                                         },
                                         getStatus: function () {
                                             return new Promise(function (resolve, reject) { return __awaiter(_this, void 0, void 0, function () {
-                                                var a_2, error_3;
+                                                var a, error_3;
                                                 return __generator(this, function (_a) {
                                                     switch (_a.label) {
                                                         case 0:
@@ -119,8 +119,8 @@ var IDPay = /** @class */ (function () {
                                                                     order_id: options.order_id
                                                                 })];
                                                         case 1:
-                                                            a_2 = _a.sent();
-                                                            resolve(a_2);
+                                                            a = _a.sent();
+                                                            resolve(a);
                                                             return [3 /*break*/, 3];
                                                         case 2:
                                                             error_3 = _a.sent();
@@ -313,23 +313,3 @@ var IDPay = /** @class */ (function () {
     return IDPay;
 }());
 exports.IDPay = IDPay;
-var a = new IDPay("29ec7e93-5cfa-4cdb-887d-6580432681ed", false);
-(function () { return __awaiter(void 0, void 0, void 0, function () {
-    var e, error_7;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
-            case 0:
-                _a.trys.push([0, 2, , 3]);
-                return [4 /*yield*/, a.transactions()];
-            case 1:
-                e = _a.sent();
-                console.log(e);
-                return [3 /*break*/, 3];
-            case 2:
-                error_7 = _a.sent();
-                console.log(error_7);
-                return [3 /*break*/, 3];
-            case 3: return [2 /*return*/];
-        }
-    });
-}); })();
