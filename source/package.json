@@ -1,6 +1,6 @@
 {
-  "name": "@Abasalt-Yar/idpay",
-  "version": "1.0.2",
+  "name": "idpay",
+  "version": "1.0.3",
   "description": "Package Based On IDPay.ir Payment API",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,7 @@
     "url": "https://github.com/Abasalt-yar/IDPay/issues"
   },
   "homepage": "https://github.com/Abasalt-yar/IDPay#readme",
-  "publishConfig": {"access": "public"}
+  "publishConfig": {
+    "access": "public"
+  }
 }
