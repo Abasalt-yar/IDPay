@@ -10,6 +10,10 @@ Simple NodeJS package for IDPay to create/verify/get a transaction
 3. `const idpay = new IDPay(API-Key,DebugMode)`
 4. You Are Ready To Use.
 
+# installation from github
+1. Download repo
+2. copy 'source' folder into your node_modules
+
 # Contact
 
 * Social Media: @Abasalt_Yar 
