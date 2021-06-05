@@ -1,6 +1,6 @@
 {
   "name": "idpay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package Based On IDPay.ir Payment API",
   "main": "index.js",
   "scripts": {
